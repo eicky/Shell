@@ -1,0 +1,6 @@
+[submodule "DD/support/Network-Reinstall-System-Modify"]
+	path = DD/support/Network-Reinstall-System-Modify
+	url = https://github.com/MeowLove/Network-Reinstall-System-Modify.git
+[submodule "DD/support/Shell"]
+	path = DD/support/Shell
+	url = https://github.com/hiCasper/Shell.git
