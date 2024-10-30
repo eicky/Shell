@@ -36,6 +36,9 @@ updateSshConfig(){
 	sed -i 's/^.*PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;
 	sed -i 's/^.*PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
 
+	#允许键盘交互认证
+	sed -i 's/^.*KbdInteractiveAuthentication.*/KbdInteractiveAuthentication yes/g' /etc/ssh/sshd_config;
+
 	#保持SSH不掉线
 	sed -i "s|#ClientAliveInterval 0|ClientAliveInterval 60|" /etc/ssh/sshd_config
 	sed -i "s|#ClientAliveCountMax 3|ClientAliveCountMax 3|" /etc/ssh/sshd_config
